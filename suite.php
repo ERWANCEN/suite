@@ -20,3 +20,10 @@ for ($j = 0; $j < 100; $j++) { // attribution de 0 à la variable j; répétitio
         echo $j . ", ";
     }
 }
+
+echo '<h1>Autre façon pour for</h3>';
+$min = 0;
+$max = 100;
+for($i = $min; $i < $max; $i++) {
+    echo ($i < 10) ? '0' . $i . ', ' : $i . ', ';
+}
